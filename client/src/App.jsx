@@ -63,7 +63,7 @@ function HomePage() {
   const fetchRecent = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/specs/recent"
+        "https://tasks-generator-backendwork.onrender.com/api/specs/recent"
       );
       setRecentSpecs(response.data);
     } catch (error) {
@@ -90,7 +90,7 @@ function HomePage() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/specs/generate",
+        "https://tasks-generator-backendwork.onrender.com/api/specs/generate",
         formData
       );
 
@@ -307,7 +307,7 @@ function StatusPage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/status")
+      .get("https://tasks-generator-backendwork.onrender.com/status")
       .then((res) => setStatus(res.data))
       .catch(() =>
         setStatus({
