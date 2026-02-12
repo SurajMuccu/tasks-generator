@@ -3,7 +3,7 @@
 Name: Muccu Suraj  
 Degree: B.Tech in Computer Science Engineering  
 University: Vel Tech University, Chennai  
-Graduation Year: 2021  
+Graduation Year: 2025
 
 ## Experience
 
@@ -31,3 +31,4 @@ It demonstrates:
 - Drag-and-drop UI using dnd-kit
 
 I understand the full codebase and architecture.
+
